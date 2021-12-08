@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libra</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css">
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <style>
+         button {
+            background-color: #05aec4;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width:20%;
+            height: 40px;
+            margin-top: 50px;
+            margin-bottom: 30px;
+            border-radius: 6px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--navigation started-->
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">LIBRA</div>
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+
+            <!-- NAVIGATION MENUS -->
+            <div class="menu">
+
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="shopnow.html">Shop Now</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </div>
+        </ul>
+    </nav>
+
+    
+          
+        <label>
+        <fieldset form="form1">
+            <legend><h2>form:</h2></legend>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" form="form1"><br><br>
+            Phone :  
+        </label>  
+        <input type="text" name="country code"  value="+91" size="2"/>   
+        <input type="text" name="phone" size="10"/> <br> <br>  
+       <label> Address </label> 
+        <br>  
+        <textarea cols="80" rows="5" value="address">  
+        </textarea>  
+        <br> <br>  
+        <label>Email:</label>  
+        <input type="email" id="email" name="email"/> <br>
+          </fieldset>
+        <button type="submit" onclick="window.location.href='payment.html';">Next</button>
+
+</body>
+</html>
